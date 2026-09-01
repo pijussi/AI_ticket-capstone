@@ -1,3 +1,20 @@
+
+# PROGRESS SO FAR!!!
+   ONLY THE keyword_classifier.py IS WORKING!! 
+   
+   and the ai one still in progress because I don't the backend architecture we're going with so it like shot in the dark of testing. I did some local testing for AI and it working fine locally not for the project
+
+   you can see the test_keyword_classifier.py for how to use the keyword_classifier.py
+
+   you can test the code by running
+
+```bash
+   python test_keyword_classifier.py
+```
+
+BELOW is the more detailed explanation of my plan but still work in progress for integration with other part 😊👌
+
+
 # Ticket Classification Module
 
 This module suggests a **category** for a support ticket based on its title and description. It's designed to be dropped into the backend (Azure Functions) and called from the `POST /tickets` handler.
